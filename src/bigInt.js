@@ -71,7 +71,7 @@ function arrEquals(arr1, arr2) {
 
 function addToDigit(digits, index, amount) {
     if (!isDigit(amount)) {
-        throw new Error
+        throw new Error()
     }
 
     let d = digits
